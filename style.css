@@ -1,0 +1,157 @@
+#main-profile {
+    background-color: #f2d3d7; 
+    padding: 40px; 
+    border-radius: 15px; 
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1); 
+}
+.profile-header {
+    text-align: center;
+    margin-bottom: 40px; 
+}
+#main-heading {
+    font-size: 38px; 
+    color: #3c3c3c; 
+    font-family: 'Merriweather', serif; 
+    border-bottom: 3px solid #caa035; 
+    padding-bottom: 8px; 
+    margin-bottom: 25px;
+}
+
+.img-circle {
+    border-radius: 50%; 
+    width: 160px; 
+    height: 160px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.profile-section {
+    background-color: #f9e8ea; 
+    border-left: 8px solid #caa035; 
+    padding: 25px;     
+    margin: 25px 0;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08); 
+}
+
+.profile-section h2 {
+    color: #caa035; 
+    font-size: 28px; 
+    margin-bottom: 12px;
+    font-family: 'Merriweather', serif; 
+    transition: color 0.3s ease;
+}
+
+.profile-section h2:hover {
+    color: #a8822b; 
+}
+.profile-section p {
+    font-size: 17px;
+    color: #444; 
+    line-height: 1.7; 
+}
+
+/* Custom button styling */
+.btn {
+    background-color: #caa035; 
+    color: white;
+    padding: 14px 28px; 
+    border-radius: 8px; 
+    font-size: 18px; 
+    text-decoration: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.btn:hover {
+    background-color: #a8822b;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15); 
+}
+
+/* Refined link styling */
+a {
+    color: #2c3e50; /* Deep navy for links */
+    text-decoration: underline;
+    font-size: 16px;
+    margin: 20px 0;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #a8822b; 
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.list-inline > li {
+    display: inline;
+    padding: 0 25px; 
+}
+
+.list-inline li a i {
+    margin-right: 6px; 
+}
+
+
+#follow-section {
+    margin-top: 50px;
+    background-color: #f9e8ea; 
+    border: 2px solid #caa035; 
+    padding: 25px; 
+    text-align: center;
+}
+
+#follow-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+    display: inline-block;
+}
+
+#follow-section ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+#follow-section ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #caa035; 
+    transition: color 0.3s ease;
+}
+
+#follow-section ul li a:hover {
+    color: #a8822b; 
+}
+
+body {
+    background-color: #f5dede;
+    color: #333;
+    font-family: 'Helvetica Neue', sans-serif; 
+    width: 850px;
+    margin: 40px auto;
+    padding: 25px;
+}
+.spacing {
+    margin-bottom: 22px;
+}
+
+@media (max-width: 960px) {
+    #main-profile {
+        width: 720px;
+    }
+}
+
+@media (max-width: 720px) {
+    #main-profile {
+        width: 540px;
+    }
+}
+
+@media (max-width: 540px) {
+    #main-profile {
+        width: 320px;
+    }
+}
